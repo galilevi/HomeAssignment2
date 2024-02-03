@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> portfolio website - Gali Levi</title>
+    <link rel="stylesheet" href="./matala_2.css">
+
+</head>
+<body>
+
+    <header> 
+    <nav id="top">
+        <ul class="top-menu">
+            <li>
+                <a style="color:#000000" href="HOME.HTML">HOME</a>
+            </li>
+            <li>
+                <a style="color:#000000" href="aboutMe.HTML">ABOUT ME</a>
+            </li>
+            <li> 
+                <a style="color:#000000" href="SKILLS.HTML">SKILLS</a>
+            </li>
+            <li>
+                <a style="color:#000000" href="PROJECT.HTML">PROJECT</a>
+            </li>
+            <li>
+                <a href="./Gali.Levi-CV..jpg" download="Gali.Levi-CV.pdf" style="color: darkred;">
+                    <i class="CV"></i>Gali Levi - CV
+                  </a>
+            </li>
+
+            <ul>
+                <li>
+                  <a>My Contact</a>
+                  <ul id="details">
+                    <li><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M760-480q0-117-81.5-198.5T480-760v-80q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480h-80Zm-160 0q0-50-35-85t-85-35v-80q83 0 141.5 58.5T680-480h-80Zm198 360q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg></i>  052-4858252</a></li>
+                    <li><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>  Gali25022@gmail.com</a></li>
+                    <li><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>  hemek hefer</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </ul>
+    </nav> 
+
+    <div class="links-container">
+        <div class="icon" onclick="listdown()">
+                    &#9776;
+        </div>
+    
+        <div class="dropdown-content" id="links">
+                        <a href="./HOME.HTML"><i class="Home"></i>Home</a>
+                        <a href="./aboutMe.HTML"><i class="about-me"></i>About Me</a>
+                        <a href="./SKILLS.HTML"><i class="skills"></i>Skills</a>
+                        <a href="./PROJECT.HTML"><i class="project"></i>Project</a>
+                        <a href="./Gali.Levi-CV..jpg" download="Gali.Levi-CV.pdf" style="color: darkred;"><i class="CV"></i>Gali Levi - CV</a>
+
+        </div>
+    </div>
+</header>
+
+    <section id="title" style="align-items: center;">
+      <h1  id="page-title">Gali Levi</h1>
+
+         <h2>ABOUT ME</h2>  
+    </section>
+    
+
+    <section id="aboutMe" style="display: flex;">
+        <div class="flex-box">
+            <p>
+                I studied at Wizo Nahalal High School in the Jezreel Valley. In addition to the standard curriculum, I learned Arabic and Geography. I was an outstanding student both socially and academically, thoroughly enjoying the school environment. I completed my studies with a full high school diploma. After finishing high school, I enlisted in the Israeli Navy as a Naval Coordination Officer. In this role, I learned how to manage shifts and take responsibility for various tasks concurrently, even without extensive prior knowledge. I thoroughly enjoyed this role, gaining confidence and knowledge in team management and taking authority when needed. During my military service, I received a certificate of excellence from the base commander, motivating me to continue contributing and giving my best.
+            </p>
+            <p>
+                After completing my military service, I worked in waitressing and used the money I saved to travel the world. I explored South America for three months, accumulating incredible experiences. Currently, I am pursuing my undergraduate studies, and as part of my scholarship, I volunteer with the "Netina" association, which focuses on distributing food and essential items to those in need.
+            </p>
+            </div>
+    </section>
+
+    <script>
+        function listdown() {
+            var dropdown = document.getElementById('links');
+            dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
